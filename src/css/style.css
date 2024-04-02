@@ -13,11 +13,24 @@
 .logop{
     height: 80px;
 }
-.basica h2{
-    display: flex;
-    flex-direction: column;
+.logo{
+    max-width: 150px;
 }
-.basica{
+.basicavanzada{
     display: flex;
     justify-content: center;
+    margin: 25px;
+}
+
+.content {
+    padding: 1%;
+    display: flex;
+    border: 2px solid green;
+    justify-content: center;
+}
+
+.content .etapa{
+    display: flex;
+    align-items: center;
+    
 }
