@@ -1,36 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header{
-    border: 1px solid green;
+.header {
     display: flex;
+    border-bottom: 10px  solid purple;
     align-items: center;
     justify-content: start;
 }
-.logop{
+
+.logop {
     height: 80px;
 }
-.logo{
+
+.basicavanzada {
+    border: 1px solid blue;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    background-color: beige;
+    gap: 10px;
+
+}
+
+
+.logo {
     max-width: 150px;
 }
-.basicavanzada{
+
+h2 {
+    margin: 50px 20px;
+}
+h3{
+    margin: 10px 0px;
+    font-size:larger;
     display: flex;
     justify-content: center;
-    margin: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1.2;
+    gap: 15px;
+
+}
+
+
+.textinfo {
+    max-width: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.descripcion {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content {
-    padding: 1%;
-    display: flex;
     border: 2px solid green;
+    padding: 20px;
+    display: flex;
+    margin: 50px;
     justify-content: center;
 }
 
-.content .etapa{
+.content .etapa {
     display: flex;
     align-items: center;
-    
+
 }
